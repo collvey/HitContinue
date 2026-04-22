@@ -26,6 +26,11 @@ BUTTON_CONFIGS = [
         'image': Path(__file__).with_name('continue_button.png'),
         'priority': 2,
     },
+    {
+        'name': 'Allow In This Session',
+        'image': Path(__file__).with_name('allow_in_this_session_button.png'),
+        'priority': 2,
+    },
 ]
 CONFIDENCE = 0.85 if OPENCV_AVAILABLE else None  # requires opencv-python
 MONITOR_INTERVAL = 0.4 # seconds between scans when monitoring
